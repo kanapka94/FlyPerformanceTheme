@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: Twenty Seventeen Child
 Theme URI: https://adamkonopka.pl
 Template: twentyseventeen
@@ -7,6 +7,9 @@ Author URI: https://adamkonopka.pl
 Description: Twenty Seventeen brings your site to life with header video and immersive featured images.
 */
 
+@import 'modules/header';
+
 body {
 	background: red;
+	text-transform: black;
 }
