@@ -17,3 +17,5 @@ node_modules
 .lock-wscript
 
 .DS_Store
+
+style.css
