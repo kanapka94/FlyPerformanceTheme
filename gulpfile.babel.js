@@ -26,11 +26,9 @@ export function styles() {
     .pipe(autoprefixer({
         browsers: ['last 2 versions']
     }))
+    .pipe(concat('style.css'))
     .pipe(cleanCSS())
     // .pipe(sourcemaps.write())
-    .pipe(rename({
-      basename: 'style'
-    }))
     .pipe(gulp.dest(paths.styles.dest))
 }
 
