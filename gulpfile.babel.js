@@ -21,13 +21,13 @@ const paths = {
 
 export function styles() {
   return gulp.src(paths.styles.src)
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
         browsers: ['last 2 versions']
     }))
     .pipe(cleanCSS())
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write())
     .pipe(rename({
       basename: 'style'
     }))
