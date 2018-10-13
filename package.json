@@ -1,0 +1,27 @@
+{
+  "name": "twentyseventeen-child",
+  "version": "1.0.0",
+  "description": "Wordpress Theme",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanapka94/FlyPerformanceTheme.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "Adam Konopka <rumpelteam@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanapka94/FlyPerformanceTheme/issues"
+  },
+  "homepage": "https://github.com/kanapka94/FlyPerformanceTheme#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "6.24.1",
+    "babel-register": "6.26.0",
+    "gulp": "4.0.0"
+  }
+}
